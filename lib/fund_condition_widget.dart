@@ -17,8 +17,8 @@ class FundCondition extends StatelessWidget {
     final media = MediaQuery.sizeOf(context).height*1;
 
     return  Container(
-      width:media*0.11,
-      padding:EdgeInsets.all(9) ,
+      width:media*0.14,
+      padding:EdgeInsets.all(4) ,
       decoration: BoxDecoration(
         boxShadow: [
           BoxShadow(
@@ -48,15 +48,15 @@ class FundCondition extends StatelessWidget {
                 style: TextStyle(
                   color: Colors.grey,
                   fontWeight: FontWeight.bold,
-                  fontSize: 12,
+                  fontSize: 10,
                 ),
               ),
               Text(
                 amount,
                 style: TextStyle(
-                  color: Colors.grey,
+                  color: Colors.blueAccent.shade100,
                   fontWeight: FontWeight.bold,
-                  fontSize: 20,
+                  fontSize: 12,
                 ),
               ),
             ],
